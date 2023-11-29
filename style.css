@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 100%;
+	height: max-content;
+	background-color:#576E16 ;
+}
+
+div.container {
+	width: 80%;
+	margin: auto;
+	padding: 10px 15px;
+}
+div.container:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+img {
+	float: left;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+nav { 
+	float: right;
+	/*background-color: #3D4D10;*/
+	height: 200px;
+	width:50%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: flex-end;
+}
+
+nav > ul > li {
+	display: inline-block;
+	font-size: 28px;
+	margin-left: 6px;
+	margin-right: 6px;
+
+	/* За бажанням змінити колір тексту */
+	color: gray; 
+}
+
+nav > ul > li:hover {
+	font-size: 32px;
+	margin-left: 14px;
+	margin-right: 14px;
+
+	/* За бажанням змінити колір тексту */
+	color: white;
+}
