@@ -126,3 +126,17 @@ input#submit-button {
 	font-size: 14px;
 	color: #D2DCB7;
 }
+
+.from_buy {
+	width: 100%;
+}
+
+.from_buy div {
+	margin: auto;
+	width: max-content;
+}
+
+.from_buy a {
+	text-decoration: none;
+	font-size: 34px;
+}
