@@ -55,3 +55,24 @@ nav > ul > li:hover {
 	/* За бажанням змінити колір тексту */
 	color: white;
 }
+
+nav > ul > li > a {  color: gray; 
+  text-decoration: none;}
+nav > ul > li:hover a {  color: white;
+}
+
+div.main-container {  width: 70%;
+  margin: auto;  margin-top: 18px;
+}
+input#submit-button {  padding: 12px;
+  border: none;  font-size: 14px;
+  margin-top: 12px;}
+.form-item {  margin: 10px auto 5px auto;
+  width: max-content;}
+.form-item input {
+  width: 300px;  height: 30px;
+}
+.form-item input:focus {  border: gray solid 3px;
+}
+.form-item label {  font-size: 14px;
+}
