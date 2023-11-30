@@ -1,7 +1,14 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
+
+	color: white;
 }
+
+body {
+	background-color: #425411;
+}
+
 header {
 	width: 100%;
 	height: max-content;
@@ -28,7 +35,7 @@ nav {
 	float: right;
 	/*background-color: #3D4D10;*/
 	height: 200px;
-	width:50%;
+	width:80%;
 
     display: flex;
     flex-wrap: wrap;
@@ -61,18 +68,61 @@ nav > ul > li > a {  color: gray;
 nav > ul > li:hover a {  color: white;
 }
 
-div.main-container {  width: 70%;
-  margin: auto;  margin-top: 18px;
+div.main-container {
+	width: 70%;
+	margin: auto;
+	margin-top: 18px;
+
+	min-height: 400px;
+
+	background-color: #4A5E13;
+
+	padding: 15px 20px;
 }
-input#submit-button {  padding: 12px;
-  border: none;  font-size: 14px;
-  margin-top: 12px;}
-.form-item {  margin: 10px auto 5px auto;
-  width: max-content;}
+input#submit-button {
+	padding: 12px;
+	border: none;  font-size: 14px;
+	margin-top: 12px;
+}
+.form-item {
+	margin: 10px auto 5px auto;
+	width: max-content;
+}
 .form-item input {
-  width: 300px;  height: 30px;
+	width: 300px;
+	height: 30px;
 }
-.form-item input:focus {  border: gray solid 3px;
+.form-item input:focus {
+	border: gray solid 3px;
 }
-.form-item label {  font-size: 14px;
+
+.form-item input[type='submit'] {
+	color: black;
+	height: max-content;
+}
+
+.form-item label {
+	font-size: 14px;
+}
+
+#title {
+	width: 100%;
+	margin-bottom: 8px;
+}
+#title h1 {
+	width: max-content;
+	margin: auto;
+	font-size: 48px;
+}
+
+
+.seller {
+	background-color: #576E16;
+	padding: 8px 12px;
+	margin-bottom: 12px; 
+}
+
+.seller p.comment {
+	font-size: 14px;
+	color: #D2DCB7;
 }
