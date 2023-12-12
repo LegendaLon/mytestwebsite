@@ -9,7 +9,7 @@
 <body> 
   <header> 
     <div class="container"> 
-      <img src="bee-on-daisy.jpg" alt=""> 
+      <img src="image/bee-on-daisy.jpg" alt=""> 
       <nav> 
         <ul> 
                <li><a href="buy.html">Купити мед</a></li> 
@@ -21,8 +21,28 @@
     </div> 
   </header> 
  
-  <div class='main-container'> 
+  <div class='main-container'>
+    <div id="title">
+        <h1>Опишіть свою проблему</h1>
+    </div>
+    <form action="support_submit.html"> 
+      <div class="form-item"> 
+        <label for="comment">Напишіть номер замовлення</label><br> 
+        <input type="text" name="comment" placeholder="Приклад: 537 632"> 
+      </div> 
 
+
+
+      <div class="form-item"> 
+        <label for="comment">Опишіть проблему</label><br> 
+        <textarea name="comment" id="" cols="50" rows="10" placeholder="Наприклад: Приїхав в негерметичному контейнері"></textarea>
+      </div> 
+       
+      <hr> 
+      <div class="form-item"> 
+        <input type="submit" id="submit-button"> 
+      </div> 
+    </form>  
   </div> 
 </body> 
 </html>

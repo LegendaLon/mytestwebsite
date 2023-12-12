@@ -3,6 +3,8 @@
 	padding: 0;
 
 	color: white;
+
+	text-decoration: none;
 }
 
 body {
@@ -25,7 +27,7 @@ div.container:after{
 	display: table;
 	clear: both;
 }
-img {
+header img {
 	float: left;
 	height: 200px;
 	width: 200px;
@@ -116,6 +118,11 @@ input#submit-button {
 	font-size: 48px;
 }
 
+#title h2 {
+	width: max-content;
+	margin: auto;
+	font-size: 32px;
+}
 
 .seller {
 	background-color: #576E16;
@@ -129,15 +136,31 @@ input#submit-button {
 }
 
 .from_buy {
-	width: 100%;
-}
-
-.from_buy div {
-	margin: auto;
 	width: max-content;
+	margin: auto;
+	display: flex;
 }
 
 .from_buy a {
 	text-decoration: none;
 	font-size: 34px;
+}
+
+div.main-container img {
+	width: max-content;
+	margin: auto;
+	display: flex;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+div.go-to-home {
+	display: flex;
+	width: max-content;
+	margin: auto;
+}
+
+div.go-to-home a {
+
+	font-size: 36px;
 }
